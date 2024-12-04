@@ -3,6 +3,8 @@ import "./globals.css";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import './fontawesome.config';
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
