@@ -8,20 +8,24 @@ import ExploreCards, { AboutStripSlider } from "./Components/explore-card/page";
 import Services from "./Components/service/page";
 import SideAction from "./Components/side-quick-action/page";
 import Footer from "./Components/footer/page";
+import Navbar from "./Components/navbar/page";
+import Contact from "./Components/contact/page";
 
 export default function Home() {
   return (
-   <div>
-      <HeroHeader/>
-      <Experience/>
-      <TabbedGallery/>
+    <div>
+      <Navbar />
+      <HeroHeader />
+      <Experience />
+      <TabbedGallery />
       <Divider backgroundImage="/divider.jpg" />
       <Services />
-      <Testimonials/>
+      <Testimonials />
       {/* <ExploreCards /> */}
-      <AboutStripSlider/>
-      <SideAction/>
-      <Footer/>
-   </div>
+      <AboutStripSlider />
+      <SideAction />
+      <Contact/>
+      <Footer />
+    </div>
   );
 }

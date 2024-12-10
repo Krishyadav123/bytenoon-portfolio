@@ -67,6 +67,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const AboutStripSlider = () => {
   // Dynamic data for the cards
@@ -112,13 +114,14 @@ export const AboutStripSlider = () => {
   return (
     <div className="w-full h-full cursor-pointer p-2 flex items-center justify-center lg:px-40 lg:py-10">
       <Swiper
-        breakpoints={{
-          1024: { slidesPerView: 4, spaceBetween: 30 }, // Desktop
-          768: { slidesPerView: 3, spaceBetween: 20 }, // Tablet
-          640: { slidesPerView: 2, spaceBetween: 15 }, // Mobile
-          0: { slidesPerView: 1, spaceBetween: 10 }, // Extra Small
+        navigation={{
+          nextEl: ".custom-swiper-button-next",
+          prevEl: ".custom-swiper-button-prev",
         }}
-        spaceBetween={20}
+        style={{
+          padding: "50px 0px 0px 0px", // Top/bottom and left/right padding
+        }}
+        modules={[Autoplay, Pagination, Navigation]}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -126,9 +129,14 @@ export const AboutStripSlider = () => {
         }}
         loop={true}
         speed={1000}
-        modules={[Autoplay, Pagination, Navigation]}
-        // pagination={{ clickable: true }}
-        // navigation
+        breakpoints={{
+          1024: { slidesPerView: 4, spaceBetween: 30 }, // Desktop
+          768: { slidesPerView: 3, spaceBetween: 20 }, // Tablet
+          640: { slidesPerView: 2, spaceBetween: 15 }, // Mobile
+          0: { slidesPerView: 1, spaceBetween: 10 }, // Extra Small
+        }}
+        spaceBetween={20}
+        className=""
       >
         {cardData.map((card, index) => (
           <SwiperSlide key={index}>
@@ -141,7 +149,9 @@ export const AboutStripSlider = () => {
                 />
               </div>
               <div className="p-5">
-                <p className="text-lg font-semibold line-clamp-1">{card.title}</p>
+                <p className="text-lg font-semibold line-clamp-1">
+                  {card.title}
+                </p>
                 <p className="text-sm text-gray-700 font-medium mt-2 line-clamp-2">
                   {card.description}
                 </p>
@@ -149,6 +159,14 @@ export const AboutStripSlider = () => {
             </div>
           </SwiperSlide>
         ))}
+        <div className="absolute top-0 z-10 flex gap-2">
+          <div className="custom-swiper-button-next bg-primary w-10 h-10 flex items-center justify-center text-white rounded-full">
+            <FontAwesomeIcon icon={faArrowLeft} className="text-xl" />
+          </div>
+          <div className="custom-swiper-button-prev bg-primary w-10 h-10 flex items-center justify-center text-white rounded-full">
+            <FontAwesomeIcon icon={faArrowRight} className="text-xl" />
+          </div>
+        </div>
       </Swiper>
     </div>
   );

@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div className="flex justify-center text-white sm:justify-start">
-              <p className='text-3xl font-semibold'>Room-Rental</p>
+              <p className='text-3xl font-semibold'>Bytenoon</p>
             </div>
             <p className="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
-              Room-Rental is a platform that connects landlords and tenants, providing a convenient and hassle-free way to find and rent rooms.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi aspernatur vero consequatur? Explicabo esse culpa quidem incidunt quisquam suscipit?
             </p>
 
             <div>
