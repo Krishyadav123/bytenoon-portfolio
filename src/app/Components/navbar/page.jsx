@@ -23,7 +23,7 @@ const Navbar = () => {
                         <Link href={'/'}>
                             <li className='hidden md:block text-base font-medium text-gray-700 hover:border-gray-800 py-1 px-3 rounded-md hover:bg-gray-100 duration-200 cursor-pointer'>Home</li>
                         </Link>
-                        <Link href={'/'}>
+                        <Link href={'/pages/about'}>
                             <li className='hidden md:block text-base font-medium text-gray-700 hover:border-gray-800 py-1 px-3 rounded-md hover:bg-gray-100 duration-200 cursor-pointer' >About</li>
                         </Link>
                         <Link href={'/'}>
