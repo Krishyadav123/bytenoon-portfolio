@@ -112,7 +112,7 @@ export const AboutStripSlider = () => {
   ];
 
   return (
-    <div className="w-full h-full cursor-pointer p-2 flex items-center justify-center lg:px-40 lg:py-10">
+    <div className="w-full h-full cursor-pointer px-5 p-2 flex items-center justify-center lg:px-40 lg:py-10">
       <Swiper
         navigation={{
           nextEl: ".custom-swiper-button-next",

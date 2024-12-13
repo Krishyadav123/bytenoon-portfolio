@@ -92,15 +92,15 @@ const HeroHeader = () => {
           {images.map((img, index) => (
             <SwiperSlide
               key={index}
-              className="w-full h-full pt-[350px] px-10 bg-cover bg-center"
+              className="w-full h-full pt-[250px] lg:pt-[350px] px-2 lg:px-10 bg-cover bg-center"
               style={{
                 backgroundImage: `url(${img})`,
               }}
             >
-              <div className="w-full h-full bg-white bg-opacity-30 p-10 flex flex-wrap gap-5 items-center justify-center">
+              <div className="w-full h-full bg-white bg-opacity-30 p-5 lg:p-10 flex flex-wrap gap-5 items-center justify-center">
                 {/* Dynamically map cards */}
                 {cards.map((card) => (
-                  <div key={card.id} className="relative hover:scale-[1.04] cursor-pointer duration-200 h-[250px] w-[250px] pt-10 overflow-hidden">
+                  <div key={card.id} className="relative hover:scale-[1.04] cursor-pointer duration-200 h-[250px] w-full md:w-[250px] pt-10 overflow-hidden">
                     <div className="bg-white absolute top-0 left-1/2 -translate-x-1/2 w-20 h-20 rounded-full flex items-center justify-center p-3">
                       <span className="text-white text-2xl font-semibold bg-black h-full w-full rounded-full flex items-center justify-center">
                         1
