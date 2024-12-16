@@ -14,7 +14,7 @@ export const ServiceSlider = () => {
     ];
   
     return (
-      <div className="w-full h-[450px] px-10 py-10">
+      <div className="w-full h-[350px] md:h-[450px] p-5 md:p-10">
     <Swiper
       effect="fade" // Enable fade effect
       pagination={{ clickable: true }}

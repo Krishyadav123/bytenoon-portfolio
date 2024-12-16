@@ -83,29 +83,29 @@ export const AboutComponent = () => {
                     </Button>
                 </div>
             </div>
-            <div className="flex items-center gap-28 mt-20">
-                <div className="w-1/2">
-                    <h3 className="font-bold text-2xl">
+            <div className="flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-28 mt-10 md:mt-20">
+                <div className="w-full lg:w-1/2">
+                    <h3 className="font-bold text-xl md:text-2xl">
                        About Web Devlopment Process
                     </h3>
-                    <p className="mt-5 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ab autem ut suscipit necessitatibus labore minus numquam enim tempore eaque expedita, in quos rem! Expedita doloremque error nostrum quis veritatis quaerat soluta assumenda ducimus hic accusamus veniam velit iusto voluptatum magni, commodi vitae? Culpa, architecto? Eum animi consequuntur ab numquam.</p>
+                    <p className="text-sm md:text-base mt-5 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ab autem ut suscipit necessitatibus labore minus numquam enim tempore eaque expedita, in quos rem! Expedita doloremque error nostrum quis veritatis quaerat soluta assumenda ducimus hic accusamus veniam velit iusto voluptatum magni, commodi vitae? Culpa, architecto? Eum animi consequuntur ab numquam.</p>
                     <Button className="mt-5 w-32 bg-primary text-white">
                         Read More
                     </Button>
                 </div>
-                <div className="w-1/2 h-[380px]">
+                <div className="w-full lg:w-1/2 h-[300px] md:h-[380px]">
                     <img className="w-full h-full rounded-md object-cover" src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2940&q=80" alt="" />
                 </div>
             </div>
-            <div className="flex items-center gap-28 mt-20">
-                <div className="w-1/2 h-[380px]">
+            <div className="flex flex-col lg:flex-row items-center gap-5 lg:gap-28 mt-10 md:mt-20">
+                <div className="w-full lg:w-1/2 h-[300px] md:h-[380px]">
                     <img className="w-full h-full rounded-md object-cover" src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2940&q=80" alt="" />
                 </div>
-                <div className="w-1/2">
-                    <h3 className="font-bold text-2xl">
+                <div className="w-full lg:w-1/2">
+                    <h3 className="font-bold text-xl md:text-2xl">
                        About Web Devlopment Process
                     </h3>
-                    <p className="mt-5 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ab autem ut suscipit necessitatibus labore minus numquam enim tempore eaque expedita, in quos rem! Expedita doloremque error nostrum quis veritatis quaerat soluta assumenda ducimus hic accusamus veniam velit iusto voluptatum magni, commodi vitae? Culpa, architecto? Eum animi consequuntur ab numquam.</p>
+                    <p className="text-sm md:text-base mt-5 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ab autem ut suscipit necessitatibus labore minus numquam enim tempore eaque expedita, in quos rem! Expedita doloremque error nostrum quis veritatis quaerat soluta assumenda ducimus hic accusamus veniam velit iusto voluptatum magni, commodi vitae? Culpa, architecto? Eum animi consequuntur ab numquam.</p>
                     <Button className="mt-5 w-32 bg-primary text-white">
                         Read More
                     </Button>

@@ -47,16 +47,16 @@ const ServiceCard = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="h-[250px] w-full bg-slate-50  shadow-md sm:w-96 px-2 py-5 rounded-lg"
+              className="h-full md:h-[250px] w-full bg-slate-50  shadow-md md:w-96 px-2 py-5 rounded-lg"
             >
               <div className="flex items-center justify-center">
-                <img className="w-20" src={service.image} alt={service.title} />
+                <img className="w-16 md:w-20" src={service.image} alt={service.title} />
               </div>
               <div className="md:p-2">
-                <h1 className="text-center text-2xl font-semibold mt-3">
+                <h1 className="text-center text- md:text-2xl font-semibold mt-3">
                   {service.title}
                 </h1>
-                <p className="md:text-md text-gray-500 font-normal line-clamp-2 mt-2 text-center">
+                <p className="text-sm md:text-md text-gray-500 font-normal line-clamp-2 mt-2 text-center">
                   {service.description}
                 </p>
               </div>

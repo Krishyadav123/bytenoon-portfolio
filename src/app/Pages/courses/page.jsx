@@ -33,23 +33,23 @@ export const CoursesLayout = () => {
   ];
 
   return (
-    <div className="py-10 px-32 bg-[#fffcfc]">
+    <div className="py-10 px-5 lg:px-32 bg-[#fffcfc]">
       <div>
         <div>
-          <h1 className="text-4xl text-center font-extrabold">
+          <h1 className="text-2xl md:text-4xl text-center font-bold md:font-extrabold">
             Our Popular Courses
           </h1>
-          <p className="text-center mt-2 text-base text-gray-500">
+          <p className="text-center mt-2 text-sm md:text-base text-gray-500">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-            voluptate obcaecati labore sunt <br /> laudantium officia in
+            voluptate obcaecati labore sunt <br className="hidden md:block" /> laudantium officia in
             similique sapiente harum libero.
           </p>
         </div>
-        <div className="w-full h-full flex flex-wrap items-center justify-center gap-5 mt-10">
+        <div className="w-full h-full flex flex-wrap items-center justify-center gap-5 mt-5 md:mt-10">
           {courses.map((course) => (
             <div
               key={course.id}
-              className="w-72 h-72 hover:scale-[1.02] cursor-pointer duration-200 rounded-xl bg-white p-5 shadow-lg"
+              className="w-full md:w-72 h-72 hover:scale-[1.02] cursor-pointer duration-200 rounded-xl bg-white p-5 shadow-lg"
             >
               <div className="w-full h-[80%]">
                 <img
