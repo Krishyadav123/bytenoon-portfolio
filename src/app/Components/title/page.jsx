@@ -2,7 +2,7 @@ import React from 'react'
 
 const Title = ({title}) => {
   return (
-    <div className="bg-gradient-to-b from-blue-300 to-[#ffffff] flex items-center justify-center h-60 md:h-80 w-full">
+    <div className="bg-gradient-to-b from-blue-300 to-[#ffffff] flex items-center justify-center h-48 md:h-80 w-full">
     <div>
       <h1 className="text-3xl text-center md:text-5xl text-primary font-extrabold">
         {title}
