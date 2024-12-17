@@ -7,7 +7,7 @@ const Title = ({title}) => {
       <h1 className="text-3xl text-center md:text-5xl text-primary font-extrabold">
         {title}
       </h1>
-      <p className="mt-2 md:mt-5 text-center text-sm md:text-lg font-semibold">Pages / {title}</p>
+      <p className="mt-2 md:mt-5 text-center text-sm md:text-lg font-semibold">/ {title}</p>
     </div>
   </div>
   

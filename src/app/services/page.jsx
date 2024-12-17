@@ -3,12 +3,12 @@ import Navbar from "@/components/layout/Navbar";
 import { ServiceSlider } from "@/components/layout/ServiceSlider";
 import Title from "@/components/layout/Title";
 import { Button } from "@/components/ui/button";
-import { Logos } from "../about/page";
 import Divider from "@/components/layout/Divider";
 import ServiceCard from "@/components/layout/ServiceCard";
 import Footer from "@/components/layout/Footer";
-import { AboutStripSlider } from "@/components/layout/CardSlider";
+import { CardSlider } from "@/components/layout/CardSlider";
 import ChooseUs from "@/components/layout/ChooseUs";
+import Logos from "@/components/layout/Logos";
 
 const Services = () => {
   return (
@@ -16,12 +16,12 @@ const Services = () => {
       <Navbar />
       <Title title="Services" />
       <ServiceSlider />
-      <Logos/>
+      <Logos />
       <ServiceCard/>
       <Divider backgroundImage="/divider.jpg" />
       <ServiceMain />
       <ChooseUs />
-      <AboutStripSlider/>
+      <CardSlider/>
       <Footer/>
     </div>
   );

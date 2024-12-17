@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleCheck, faHeart } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
-import { Button } from '@/components/ui/button'
-import about from '../../../../public/about.png'
 
 const Experience = () => {
     return (

@@ -70,7 +70,7 @@ const ServiceCard = () => {
 
 export default ServiceCard;
 
-<div
+{/* <div
   id="multiple-card"
   className="bg-slate-50  shadow-md sm:w-96 px-2 py-5 rounded-lg"
 >
@@ -89,4 +89,4 @@ export default ServiceCard;
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, error.
     </p>
   </div>
-</div>;
+</div>; */}

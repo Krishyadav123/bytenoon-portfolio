@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import React from "react";
 
-const Contact = () => {
+const ContactUs = () => {
   return (
     <div className="w-full h-full px-5 lg:px-32 py-10">
       <div className="w-full h-full flex flex-col-reverse xl:flex-row justify-center gap-10">
@@ -63,4 +63,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactUs;

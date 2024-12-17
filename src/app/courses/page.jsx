@@ -1,9 +1,9 @@
-import CoursesBanner from "@/app/Components/courses-banner/page";
-import { AboutStripSlider } from "@/components/layout/CardSlider";
+// import CoursesBanner from "@/app/Components/courses-banner/page";
+import { CardSlider } from "@/components/layout/CardSlider";
+import CoursesBanner from "@/components/layout/CoursesBanner";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import Title from "@/components/layout/Title";
-import React from "react";
 
 const Courses = () => {
   return (
@@ -11,8 +11,8 @@ const Courses = () => {
       <Navbar />
       <Title title="Courses" />
       <CoursesLayout />
-      <CoursesBanner/>
-      <AboutStripSlider/>
+      <CoursesBanner />
+      <CardSlider/>
       <Footer />
     </div>
   );

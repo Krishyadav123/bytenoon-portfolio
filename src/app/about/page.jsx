@@ -1,6 +1,7 @@
 import ChooseUs from "@/components/layout/ChooseUs";
 import Divider from "@/components/layout/Divider";
 import Footer from "@/components/layout/Footer";
+import Logos from "@/components/layout/Logos";
 import Navbar from "@/components/layout/Navbar";
 import Title from "@/components/layout/Title";
 import { Button } from "@/components/ui/button";
@@ -116,43 +117,3 @@ export const AboutComponent = () => {
     </div>
   );
 };
-
-
-export const Logos = () => {
-  return (
-   
-          <div className="w-full h-full my-5 flex flex-wrap items-center justify-center gap-2 lg:gap-10 border-t border-b border-gray-300 py-5">
-            <div>
-              <img
-                className="w-36 md:w-44 lg:w-52"
-                src="https://i0.wp.com/onegroupnetwork.com/wp-content/uploads/2020/09/dummy-logo-5b.png?ssl=1"
-                alt=""
-              />
-            </div>
-            <div className="hidden lg:block border border-gray-300 h-20"></div>
-            <div>
-              <img
-                className="w-36 md:w-44 lg:w-52"
-                src="https://i0.wp.com/onegroupnetwork.com/wp-content/uploads/2020/09/dummy-logo-5b.png?ssl=1"
-                alt=""
-              />
-            </div>
-            <div className="hidden lg:block border border-gray-300 h-20"></div>
-            <div>
-              <img
-                className="w-36 md:w-44 lg:w-52"
-                src="https://i0.wp.com/onegroupnetwork.com/wp-content/uploads/2020/09/dummy-logo-5b.png?ssl=1"
-                alt=""
-              />
-            </div>
-            <div className="hidden lg:block border border-gray-300 h-20"></div>
-            <div>
-              <img
-                className="w-36 md:w-44 lg:w-52"
-                src="https://i0.wp.com/onegroupnetwork.com/wp-content/uploads/2020/09/dummy-logo-5b.png?ssl=1"
-                alt=""
-              />
-            </div>
-          </div>
-  )
-}

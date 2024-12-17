@@ -1,27 +1,24 @@
-import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
+import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Navbar from "@/components/layout/Navbar";
 import Title from "@/components/layout/Title";
 import Footer from "@/components/layout/Footer";
-import Contact from "@/components/layout/ContactUs";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
+import ContactUs from "@/components/layout/ContactUs";
 
-const ContactUs = () => {
+const Contact = () => {
   return (
     <div>
       <Navbar />
       <Title title="Contact" />
       <ContactLayout />
-      <Contact />
+      <ContactUs/>
       <Footer />
     </div>
   );
 };
 
-export default ContactUs;
+export default Contact;
 
 export const ContactLayout = () => {
   return (

@@ -1,30 +1,28 @@
-import Image from "next/image";
-import HeroHeader from "./Components/hero-header/page";
-import Experience from "./Components/about/page";
-import TabbedGallery from "./Components/gallary/page";
-import Testimonials from "./Components/testimonials/page";
-import Divider from "./Components/divider/page";
-import ExploreCards, { AboutStripSlider } from "./Components/explore-card/page";
-import Services from "./Components/service/page";
-import SideAction from "./Components/side-quick-action/page";
-import Footer from "./Components/footer/page";
-import Navbar from "./Components/navbar/page";
-import Contact from "./Components/contact/page";
+import HeroHeader from "../components/layout/HeroHeader";
+import Experience from "../components/layout/Experience";
+import TabbedGallery from "../components/layout/TabbedGallery";
+import Testimonials from "../components/layout/Testimonials";
+import Divider from "../components/layout/Divider";
+import {CardSlider } from "../components/layout/CardSlider";
+import Services from "../components/layout/Services";
+import Footer from "../components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
+import ContactUs from "../components/layout/ContactUs";
+import SideAction from "@/components/layout/SideAction";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <HeroHeader />
       <Experience />
       <TabbedGallery />
       <Divider backgroundImage="/divider.jpg" />
       <Services />
       <Testimonials />
-      {/* <ExploreCards /> */}
-      <AboutStripSlider />
+      <CardSlider/>
       <SideAction />
-      <Contact/>
+      <ContactUs/>
       <Footer />
     </div>
   );
