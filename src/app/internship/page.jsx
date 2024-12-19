@@ -1,3 +1,4 @@
+import BentoGrid from '@/components/layout/BentoGrid'
 import Footer from '@/components/layout/Footer'
 import InternshipCards from '@/components/layout/InternshipCards'
 import { InternshipSlider } from '@/components/layout/InternshipSlider'
@@ -12,6 +13,7 @@ const Internship = () => {
         <Title title="Internship" />
         <InternshipCards/>
         <InternshipSlider/>
+        <BentoGrid/>
         <Footer />
     </div>
   )
