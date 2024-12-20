@@ -33,27 +33,27 @@ const Sidebar = () => {
                   Home
                 </li>
               </Link>
-              <Link href={"/Pages/about"}>
+              <Link href={"/about"}>
                 <li className="md:block text-base font-medium text-gray-700 hover:border-gray-800 py-1 px-3 rounded-md hover:bg-gray-100 duration-200 cursor-pointer">
                   About
                 </li>
               </Link>
-              <Link href={"/Pages/services"}>
+              <Link href={"/services"}>
                 <li className="text-base font-medium text-gray-700 hover:border-gray-800 py-1 px-3 rounded-md hover:bg-gray-100 duration-200">
                   Services
                 </li>
               </Link>
-              <Link href={"/Pages/courses"}>
+              <Link href={"/courses"}>
                 <li className="text-base font-medium text-gray-700 hover:border-gray-800 py-1 px-3 rounded-md hover:bg-gray-100 duration-200">
                   Courses
                 </li>
               </Link>
-              <Link href={"/"}>
+              <Link href={"/internship"}>
                 <li className="text-base font-medium text-gray-700 hover:border-gray-800 py-1 px-3 rounded-md hover:bg-gray-100 duration-200">
                   Internship
                 </li>
               </Link>
-              <Link href={"/Pages/contact-us"}>
+              <Link href={"/contact"}>
                 <li className="text-base font-medium text-gray-700 hover:border-gray-800 py-1 px-3 rounded-md hover:bg-gray-100 duration-200">
                   Contact
                 </li>
