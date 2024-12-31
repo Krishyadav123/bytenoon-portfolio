@@ -12,39 +12,93 @@ export const CardSlider = () => {
   const cardData = [
     {
       image:
-        "https://assets-v2.scaler.com/assets/academy/svg/carousel-2-9564cde8d38ebab1459025fdef2ce4ab5234c0eb513f8adcb2f1372239658666.svg.gz",
-      title: "Lorem, ipsum dolor.",
-      description: "98765 Lorem, ipsum.",
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1735581280/x_bytenoon_assets/course-logo/y8hqgiferbykkxkoua9j.png",
+      title: "JavaScript",
+      description: "Complete JavaScript course",
     },
     {
       image:
-        "https://assets-v2.scaler.com/assets/academy/svg/carousel-2-9564cde8d38ebab1459025fdef2ce4ab5234c0eb513f8adcb2f1372239658666.svg.gz",
-      title: "Dolor sit amet.",
-      description: "Lorem ipsum dolor sit amet consectetur.",
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735579891/x_bytenoon_assets/course-logo/wsgxsmluc0tsc4ja4zom.png",
+      title: "Python",
+      description: "Basic to advanced Python course",
     },
     {
       image:
-        "https://assets-v2.scaler.com/assets/academy/svg/carousel-2-9564cde8d38ebab1459025fdef2ce4ab5234c0eb513f8adcb2f1372239658666.svg.gz",
-      title: "Consectetur adipiscing elit.",
-      description: "Pellentesque commodo eros a enim.",
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_1400/v1735580395/x_bytenoon_assets/course-logo/wkmae0wmrcuwug7ltchj.png",
+      title: "React Js",
+      description: "React Js course for beginners",
     },
     {
       image:
-        "https://assets-v2.scaler.com/assets/academy/svg/carousel-2-9564cde8d38ebab1459025fdef2ce4ab5234c0eb513f8adcb2f1372239658666.svg.gz",
-      title: "Vivamus elementum semper nisi.",
-      description: "Aenean vulputate eleifend tellus.",
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735581080/x_bytenoon_assets/course-logo/ftu5ybqlwj2k6tnaqd5c.png",
+      title: "Node.js",
+      description: "Node.Js Backend course",
     },
     {
       image:
-        "https://assets-v2.scaler.com/assets/academy/svg/carousel-2-9564cde8d38ebab1459025fdef2ce4ab5234c0eb513f8adcb2f1372239658666.svg.gz",
-      title: "Vivamus elementum semper nisi.",
-      description: "Aenean vulputate eleifend tellus.",
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735581080/x_bytenoon_assets/course-logo/l5rek75in9ec5quemlwu.svg",
+      title: "Java",
+      description: "Core and Advanced Java course",
     },
     {
       image:
-        "https://assets-v2.scaler.com/assets/academy/svg/carousel-2-9564cde8d38ebab1459025fdef2ce4ab5234c0eb513f8adcb2f1372239658666.svg.gz",
-      title: "Vivamus elementum semper nisi.",
-      description: "Aenean vulputate eleifend tellus.",
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735581080/x_bytenoon_assets/course-logo/qqvxd160towwkswoibhh.png",
+      title: "C++",
+      description: "Core Knowledge of C++",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800,h_600/v1735579891/x_bytenoon_assets/course-logo/emk6uhgytmsgd2vlxxwg.svg",
+      title: "ReactNative",
+      description: "React Native course for beginners",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735624734/x_bytenoon_assets/course-logo/vxwy1i0ui6q90hovjm5n.jpg",
+      title: "DSA",
+      description: "Data Structures and Algorithms course",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735624736/x_bytenoon_assets/course-logo/j89sxlbxeorwbas4pubx.png",
+      title: "Video Editing",
+      description: "Professional Video Editing course",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735624733/x_bytenoon_assets/course-logo/f9tviczqffqek6vmp0ck.jpg",
+      title: "Digital Marketing",
+      description: "Complete Digital Marketing course",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735624733/x_bytenoon_assets/course-logo/gtpvulcg7ksjhyaiecii.png",
+      title: "Graphics Design",
+      description: "Expert Graphics Design course",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735624733/x_bytenoon_assets/course-logo/s6z6wrefngrwtyzpflxd.png",
+      title: "Tally",
+      description: "In-depth Tally course",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735624736/x_bytenoon_assets/course-logo/cefxxrmc8he7njf1izte.jpg",
+      title: "Advanced Excel",
+      description: "Advanced Excel course for professional work",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735624732/x_bytenoon_assets/course-logo/alfgrwfbp08nwrtloabl.webp",
+      title: "Basic Computer",
+      description: "Basic Computer course for absolute biginners",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/ddnb10zkq/image/upload/v1735625678/x_bytenoon_assets/course-logo/fbga1estzslqzvcnt30q.jpg",
+      title: "Spoken English",
+      description: "Spoken English course for beginners",
     },
   ];
 
@@ -52,15 +106,15 @@ export const CardSlider = () => {
     <div className="w-full h-full cursor-pointer px-5 p-2 flex items-center justify-center lg:px-40 lg:py-10">
       <Swiper
         navigation={{
-          nextEl: ".custom-swiper-button-next",
-          prevEl: ".custom-swiper-button-prev",
+          nextEl: ".custom-swiper-button-prev",
+          prevEl: ".custom-swiper-button-next",
         }}
         style={{
           padding: "50px 0px 0px 0px", // Top/bottom and left/right padding
         }}
         modules={[Autoplay, Pagination, Navigation]}
         autoplay={{
-          delay: 2500,
+          delay: 1000,
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}
@@ -77,10 +131,10 @@ export const CardSlider = () => {
       >
         {cardData.map((card, index) => (
           <SwiperSlide key={index}>
-            <div className="h-64 mb-5 rounded-xl shadow-md hover:shadow-lg cursor-pointer bg-white">
-              <div className="h-[55%] w-full">
+            <div className="h-80 mb-5 rounded-xl shadow-md hover:shadow-lg cursor-pointer bg-white">
+              <div className="h-[65%] w-full">
                 <img
-                  className="w-full h-full object-cover rounded-t-lg"
+                  className="w-full h-full object-fill rounded-t-lg"
                   src={card.image}
                   alt={card.title}
                 />
