@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import Sidebar from './Sidebar'
+import SideContact from './SideContact'
 
 
 const Navbar = () => {
@@ -37,7 +38,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='hidden md:block'>
-                    <Button className='bg-primary text-white'>Get Started</Button>    
+                    {/* <Button className='bg-primary text-white'>Get Started</Button>     */}
+                    <SideContact title={'Get Started'}/>
                 </div>
                 <div className='md:hidden'>
                     <Sidebar />

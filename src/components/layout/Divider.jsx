@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import SideContact from "./SideContact";
 
 const Divider = ({ backgroundImage }) => {
   const parelaxStyle = {
@@ -27,18 +28,22 @@ const Divider = ({ backgroundImage }) => {
               accusantium doloremque adipiscing elit.
             </p>
             <div className="flex items-center justify-center gap-2 mt-5 md:mt-10">
-              <Button
+              {/* <Button
                 variant="Default"
-                className="rounded-10 px-5 md:px-10 py-5 bg-primary text-sm md:text-base  text-white"
+                className="rounded-10 px-5 md:px-7 py-4 bg-white text-sm md:text-base text-primary"
               >
                 Call Now
-              </Button>
-              <Button
+              </Button> */}
+              <div className="px-5 text-sm md:text-base rounded-md py-2 bg-white text-primary">
+                Call Now
+              </div>
+              {/* <Button
                 variant="Default"
                 className="rounded-10 px-5 md:px-10 py-5 bg-white text-sm md:text-base  text-primary"
               >
                 Contact Us
-              </Button>
+              </Button> */}
+              <SideContact title="Contact Us" />
             </div>
           </div>
         </div>

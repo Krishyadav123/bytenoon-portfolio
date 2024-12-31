@@ -3,39 +3,53 @@ import React from "react";
 const ServiceCard = () => {
   const services = [
     {
-      image:
-        "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Technical Support",
+      icon: "/1.svg", // Directly reference SVGs in the public folder
+      title: "Web Development",
       description: "We provide 24/7 support for all your technical needs.",
     },
     {
-      image:
-        "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Consultation Services",
-      description: "Get expert advice tailored to your business goals. with bytenoon",
+      icon: "/2.svg",
+      title: "App Development",
+      description: "Get expert advice tailored to your business goals with Bytenoon.",
     },
     {
-      image:
-        "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Custom Solutions",
+      icon: "/3.svg",
+      title: "Video Editing",
       description: "We build solutions that fit your unique requirements.",
     },
     {
-      image:
-        "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Technical Support",
+      icon: "/4.svg", // Directly reference SVGs in the public folder
+      title: "Digital Marketing",
       description: "We provide 24/7 support for all your technical needs.",
     },
     {
-      image:
-        "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Consultation Services",
-      description: "Get expert advice tailored to your business goals. with bytenoon",
+      icon: "/5.svg",
+      title: "Gst Services",
+      description: "Get expert advice tailored to your business goals with Bytenoon.",
     },
     {
-      image:
-        "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Custom Solutions",
+      icon: "/6.svg",
+      title: "Graphics Design",
+      description: "We build solutions that fit your unique requirements.",
+    },
+    {
+      icon: "/7.svg",
+      title: "Ui/Ux Design",
+      description: "We build solutions that fit your unique requirements.",
+    },
+    {
+      icon: "/8.svg", // Directly reference SVGs in the public folder
+      title: "Photo Editing",
+      description: "We provide 24/7 support for all your technical needs.",
+    },
+    {
+      icon: "/9.svg",
+      title: "Social Media Marketing",
+      description: "Get expert advice tailored to your business goals with Bytenoon.",
+    },
+    {
+      icon: "/10.svg",
+      title: "Data Entry",
       description: "We build solutions that fit your unique requirements.",
     },
   ];
@@ -47,13 +61,14 @@ const ServiceCard = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="h-full md:h-[250px] w-full bg-slate-50  shadow-md md:w-96 px-2 py-5 rounded-lg"
+              className="h-full md:h-[250px] w-full bg-white shadow-md md:w-96 px-2 py-5 rounded-lg"
             >
               <div className="flex items-center justify-center">
-                <img className="w-16 md:w-20" src={service.image} alt={service.title} />
+                {/* Display the SVG icon */}
+                <img className="w-16 md:w-28" src={service.icon} alt={service.title} />
               </div>
               <div className="md:p-2">
-                <h1 className="text-center text- md:text-2xl font-semibold mt-3">
+                <h1 className="text-center text-md md:text-2xl font-semibold mt-3">
                   {service.title}
                 </h1>
                 <p className="text-sm md:text-md text-gray-500 font-normal line-clamp-2 mt-2 text-center">
@@ -69,24 +84,3 @@ const ServiceCard = () => {
 };
 
 export default ServiceCard;
-
-{/* <div
-  id="multiple-card"
-  className="bg-slate-50  shadow-md sm:w-96 px-2 py-5 rounded-lg"
->
-  <div className="flex items-center justify-center">
-    <img
-      className="w-20"
-      src="https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz"
-      alt=""
-    />
-  </div>
-  <div className="md:p-2">
-    <h1 className="text-center text-2xl font-semibold mt-3">
-      Lorem ipsum dolor sit amet
-    </h1>
-    <p className="md:text-md text-gray-500 font-normal mt-2 text-center">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, error.
-    </p>
-  </div>
-</div>; */}

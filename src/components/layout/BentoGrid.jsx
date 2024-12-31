@@ -11,21 +11,27 @@ const BentoGrid = () => {
           <div>
             <img
               className="w-full h-[300px] object-cover rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735652897/bytenoon%20intership/t2hzum49xkqngu0whtqs.avif
+
+"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-full h-[200px] object-cover rounded-lg"
-              src="https://wallpaperaccess.com/full/809523.jpg"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735652897/bytenoon%20intership/p0nqpp5yemmx4drhijsd.avif
+
+"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-full h-[250px] object-cover rounded-lg"
-              src="https://pixlr.com/images/index/ai-image-generator-one.webp"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735652896/bytenoon%20intership/vxln5pe0aizjbcc1ewze.avif
+
+"
               alt=""
             />
           </div>
@@ -34,21 +40,29 @@ const BentoGrid = () => {
           <div>
             <img
               className="w-full h-[200px] object-cover rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
+              src=" https://res.cloudinary.com/dinknhjnp/image/upload/v1735652896/bytenoon%20intership/kvmdqmsmqhzxaj5fswy5.avif
+
+
+
+"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-full h-[350px] object-cover rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
+              src=" https://res.cloudinary.com/dinknhjnp/image/upload/v1735652895/bytenoon%20intership/wegkoypn0hf6gfigqxsu.avif
+
+"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-full h-[200px] object-cover rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735652895/bytenoon%20intership/nduxvnyhkab6abjo2p4q.avif
+
+"
               alt=""
             />
           </div>
@@ -57,21 +71,32 @@ const BentoGrid = () => {
           <div>
             <img
               className="w-full h-[300px] object-cover rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735652895/bytenoon%20intership/dkrx0zyim0gl5qjffajf.avif
+
+
+"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-full h-[200px] object-cover rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735652894/bytenoon%20intership/bte8ttermkpyvjjjprxw.avif
+
+
+
+
+"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-full h-[250px] object-cover rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735652666/bytenoon%20intership/gajlycyd7p4qqn02wn5v.avif
+
+
+"
               alt=""
             />
           </div>
@@ -80,21 +105,28 @@ const BentoGrid = () => {
           <div>
             <img
               className="w-full h-[150px] object-cover rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735652666/bytenoon%20intership/fsdbskursrrfbwmak2o6.avif
+
+
+"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-full h-[400px] object-cover rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735652666/bytenoon%20intership/qbmgm1szfekzwvmcks4w.avif
+"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-full h-[200px] object-cover rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735652666/bytenoon%20intership/jjm8rydjljreve2qjzqz.avif
+
+
+"
               alt=""
             />
           </div>

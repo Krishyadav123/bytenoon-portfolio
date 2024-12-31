@@ -1,4 +1,5 @@
 import { faClock } from '@fortawesome/free-regular-svg-icons'
+import { faArrowUpRightDots, faMedal, faRocket } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
@@ -24,7 +25,7 @@ const Services = () => {
                 <div className='w-full h-48 shadow-lg rounded-md p-7'>
                     <div className='flex justify-center gap-5'>
                         <div>
-                        <FontAwesomeIcon icon={faClock} className='text-secondry text-3xl md:text-4xl' />
+                        <FontAwesomeIcon icon={faArrowUpRightDots} className='text-secondry text-3xl md:text-4xl' />
                         </div>
                         <div>
                             <h2 className='text-xl font-semibold md:text-2xl md:font-bold'>Fast Growing system</h2>
@@ -37,7 +38,7 @@ const Services = () => {
             <div className='w-full h-48 shadow-lg rounded-md p-7'>
                     <div className='flex justify-center gap-5'>
                         <div>
-                        <FontAwesomeIcon icon={faClock} className='text-secondry text-3xl md:text-4xl' />
+                        <FontAwesomeIcon icon={faRocket} className='text-secondry text-3xl md:text-4xl' />
                         </div>
                         <div>
                             <h2 className='text-xl font-semibold md:text-2xl md:font-bold'>Fast Growing system</h2>
@@ -48,7 +49,7 @@ const Services = () => {
                 <div className='w-full h-48 shadow-lg rounded-md p-7'>
                     <div className='flex justify-center gap-5'>
                         <div>
-                        <FontAwesomeIcon icon={faClock} className='text-secondry text-3xl md:text-4xl' />
+                        <FontAwesomeIcon icon={faMedal} className='text-secondry text-3xl md:text-4xl' />
                         </div>
                         <div>
                             <h2 className='text-xl font-semibold md:text-2xl md:font-bold'>Fast Growing system</h2>
