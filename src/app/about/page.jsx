@@ -100,7 +100,7 @@ export const AboutComponent = () => {
             </div>
             <div className="flex flex-col lg:flex-row items-center gap-5 lg:gap-28 mt-10 md:mt-20">
                 <div className="w-full lg:w-1/2 h-[300px] md:h-[380px]">
-                    <img className="w-full h-full rounded-md object-cover" src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2940&q=80" alt="" />
+                    <img className="w-full h-full rounded-md object-cover" src="https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735642366/bytenoon/n72he8uwv2elrkvjynhj.avif" alt="" />
                 </div>
                 <div className="w-full lg:w-1/2">
                     <h3 className="font-bold text-xl md:text-2xl">

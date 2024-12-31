@@ -33,26 +33,26 @@ export const ServiceMain = () => {
   return (
     <div className="w-full h-full px-5 xl:px-32 py-14">
       <div className="flex flex-col lg:flex-row items-center justify-center gap-5 md:gap-20">
-        <div className="w-full lg:w-[40%] h-[300px] md:h-[350px] gap-5 flex items-center justify-center">
+        <div className="w-full lg:w-[40%] h-[300px] md:h-[350px] gap-2 md:gap-5 flex items-center justify-center">
           <div className="h-full w-1/2">
             <img
               className="w-full h-full object-cover rounded-md"
-              src="https://wallpaperaccess.com/full/809523.jpg"
+              src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735640968/bytenoon/ugfp1oje9negbz46bkfo.avif "
               alt=""
             />
           </div>
-          <div className="w-1/2 h-full flex flex-col items-center justify-center gap-5">
+          <div className="w-1/2 h-full flex flex-col items-center justify-center gap-2 md:gap-5">
             <div className="w-full h-1/2">
               <img
                 className="w-full h-full object-cover rounded-md"
-                src="https://wallpaperaccess.com/full/809523.jpg"
+                src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735641015/bytenoon/j7yovgiaowjopo0ehi3h.avif "
                 alt=""
               />
             </div>
             <div className="w-full h-1/2">
               <img
                 className="w-full h-full object-cover rounded-md"
-                src="https://wallpaperaccess.com/full/809523.jpg"
+                src="https://res.cloudinary.com/dinknhjnp/image/upload/v1735641014/bytenoon/udjqhujthgv0f2idlbgd.avif "
                 alt=""
               />
             </div>

@@ -10,12 +10,25 @@ import "swiper/css/effect-fade";
 // Import required modules
 import { Pagination, Navigation, Autoplay, EffectFade } from "swiper/modules";
 
+const icons = [
+  "/1.svg",
+  "/2.svg",
+  "/3.svg",
+  "/4.svg",
+  "/5.svg",
+  "/6.svg",
+  "/7.svg",
+  "/8.svg",
+  "/9.svg",
+  "/10.svg",
+];
+
 const HeroHeader = () => {
   const images = [
-    "https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63452.jpg",
-    "https://htmlcolorcodes.com/assets/images/colors/light-green-color-solid-background-1920x1080.png",
-    "https://wallpapers.com/images/hd/solid-light-purple-i9p8auwzsvwnpiox.jpg",
-    "https://lab-can.com/wp-content/uploads/2018/07/light-yellow-background-pale-yellow-clouds-texture-light-yellow-and-green-background-design.jpg",
+    "https://res.cloudinary.com/dinknhjnp/image/upload/v1735631573/bytenoon/ofywazwmeqesbxekprnx.png",
+    "https://res.cloudinary.com/dinknhjnp/image/upload/v1735631566/bytenoon/thbmwr254euhnh8nkkvf.png",
+    "https://res.cloudinary.com/dinknhjnp/image/upload/v1735631569/bytenoon/rwwqhvygmmdke3cqygz9.png",
+    "https://res.cloudinary.com/dinknhjnp/image/upload/v1735631567/bytenoon/mps1rudccfykhzxxdpej.png",
   ];
 
   const cards = [
@@ -42,32 +55,32 @@ const HeroHeader = () => {
     {
       id: 5,
       title: "Card 5",
-      description: "Description for Card 4",
+      description: "Description for Card 5",
     },
     {
       id: 6,
       title: "Card 6",
-      description: "Description for Card 4",
+      description: "Description for Card 6",
     },
     {
       id: 7,
       title: "Card 7",
-      description: "Description for Card 4",
+      description: "Description for Card 7",
     },
     {
       id: 8,
       title: "Card 8",
-      description: "Description for Card 4",
+      description: "Description for Card 8",
     },
     {
       id: 9,
       title: "Card 9",
-      description: "Description for Card 4",
+      description: "Description for Card 9",
     },
     {
       id: 10,
       title: "Card 10",
-      description: "Description for Card 4",
+      description: "Description for Card 10",
     },
   ];
 
@@ -80,7 +93,6 @@ const HeroHeader = () => {
           pagination={{
             clickable: true,
           }}
-          // navigation={true}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
@@ -92,7 +104,7 @@ const HeroHeader = () => {
           {images.map((img, index) => (
             <SwiperSlide
               key={index}
-              className="w-full h-full pt-[250px] lg:pt-[350px] px-2 lg:px-10 bg-cover bg-center"
+              className="w-full h-full pt-[250px] lg:pt-[350px] px-2 lg:px-10 bg-contain bg-center"
               style={{
                 backgroundImage: `url(${img})`,
               }}
@@ -100,20 +112,23 @@ const HeroHeader = () => {
               <div className="w-full h-full bg-white bg-opacity-30 p-5 lg:p-10 flex flex-wrap gap-5 items-center justify-center">
                 {/* Dynamically map cards */}
                 {cards.map((card) => (
-                  <div key={card.id} className="relative hover:scale-[1.04] cursor-pointer duration-200 h-[250px] w-full md:w-[250px] pt-10 overflow-hidden">
+                  <div
+                    key={card.id}
+                    className="relative hover:scale-[1.04] cursor-pointer duration-200 h-[250px] w-full md:w-[250px] pt-10 overflow-hidden"
+                  >
                     <div className="bg-white absolute top-0 left-1/2 -translate-x-1/2 w-20 h-20 rounded-full flex items-center justify-center p-3">
-                      <span className="text-white text-2xl font-semibold bg-black h-full w-full rounded-full flex items-center justify-center">
-                        1
-                      </span>
+                      <img
+                        src={icons[card.id % icons.length]} // Use card.id to select the icon
+                        alt={`icon-${card.id}`}
+                        className="w-full h-full"
+                      />
                     </div>
-
                     <div className="bg-white h-full w-full rounded-lg px-5 pt-14 pb-5">
-                      <div className="flex items-center gap-5">
-                        {/* <img src={discover} className='w-[50px]' alt="" /> */}
-                        <p className="text-2xl font-semibold">{card.title}</p>
+                      <div>
+                        <p className="text-2xl text-center font-semibold">{card.title}</p>
                       </div>
                       <div>
-                        <p className="text-base text-gray-600 mt-2">
+                        <p className="text-base text-center text-gray-600 mt-2">
                           {card.description}
                         </p>
                       </div>

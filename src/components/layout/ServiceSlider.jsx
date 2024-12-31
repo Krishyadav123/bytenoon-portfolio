@@ -7,14 +7,14 @@ import "swiper/css/effect-fade";
 
 export const ServiceSlider = () => {
     const data = [
-      "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
-      "https://wallpapercave.com/wp/wp3386769.jpg",
-      "https://wallpaperaccess.com/full/809523.jpg",
-      "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg",
+      "https://res.cloudinary.com/dinknhjnp/image/upload/v1735639243/bytenoon/hpdwnqovklemvjuxcqms.png ",
+      "https://res.cloudinary.com/dinknhjnp/image/upload/v1735639243/bytenoon/tuxstenopznxtp0njssl.png ",
+      "https://res.cloudinary.com/dinknhjnp/image/upload/v1735639244/bytenoon/ytnzxxk1neusz80uv5ld.png ",
+      "https://res.cloudinary.com/dinknhjnp/image/upload/v1735639245/bytenoon/phddqbwsik8bfoezt6bk.png ",
     ];
   
     return (
-      <div className="w-full h-[350px] md:h-[450px] p-5 md:p-10">
+      <div className="w-full h-[250px] md:h-[550px] p-5 md:p-10">
     <Swiper
       effect="fade" // Enable fade effect
       pagination={{ clickable: true }}
@@ -30,7 +30,7 @@ export const ServiceSlider = () => {
           <img
             src={image}
             alt={`Slide ${index + 1}`}
-            className="w-full h-full object-cover"
+            className="w-full h-full"
           />
         </SwiperSlide>
       ))}
