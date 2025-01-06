@@ -1,45 +1,78 @@
+import { icon } from "@fortawesome/fontawesome-svg-core";
+import { icons } from "lucide-react";
 import React from "react";
+
+
+icons = [
+  "/FullStack.svg",
+  "/AppDev.svg",
+  "/DigitalMarketing.svg",
+  "/FrontendDev.svg",
+  "/9.svg",
+  "/Graphic-design.svg",
+  "/Ui.svg",
+  "/Wordpress.svg",
+  "/Photo-Video.svg",
+
+]
 
 const InternshipCards = () => {
   const services = [
     {
-      image:
-        "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Technical Support",
+      image: "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
+      title: "Full Stack",
       description: "We provide 24/7 support for all your technical needs.",
     },
     {
       image:
         "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Consultation Services",
+      title: "App Development",
       description:
         "Get expert advice tailored to your business goals. with bytenoon",
     },
     {
       image:
         "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Custom Solutions",
+      title: "Digital Marketing",
       description: "We build solutions that fit your unique requirements.",
     },
     {
       image:
         "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Technical Support",
+      title: "Frontend Development",
       description: "We provide 24/7 support for all your technical needs.",
     },
     {
       image:
         "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Consultation Services",
+      title: "Backend Development",
       description:
         "Get expert advice tailored to your business goals. with bytenoon",
     },
     {
       image:
         "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
-      title: "Custom Solutions",
+      title: "Graphic Design",
       description: "We build solutions that fit your unique requirements.",
     },
+      {
+        image:
+          "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
+        title: "UI/UX Design",
+        description: "We build solutions that fit your unique requirements.",
+      },
+      {
+        image:
+          "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
+        title: "Wordpress Development",
+        description: "We build solutions that fit your unique requirements.",
+      },
+      {
+        image:
+          "https://assets-v2.scaler.com/assets/technical-support-d11d16e019dbb2885dda285f9a01e7e03ebbb8e696e5e874bfe1e7e532117626.png.gz",
+        title: "Photo&Video Editing",
+        description: "We build solutions that fit your unique requirements.",
+      },
   ];
 
   return (
@@ -52,12 +85,12 @@ const InternshipCards = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="h-full md:h-[250px] w-full bg-slate-50  shadow-md md:w-96 px-2 py-5 rounded-lg"
+              className="h-full md:h-[250px] w-full bg-white  shadow-md md:w-96 px-2 py-5 rounded-lg"
             >
               <div className="flex items-center justify-center">
                 <img
                   className="w-16 md:w-20"
-                  src={service.image}
+                  src={icons[index]}
                   alt={service.title}
                 />
               </div>

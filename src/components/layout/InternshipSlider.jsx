@@ -12,27 +12,51 @@ export const InternshipSlider = () => {
   const cardData = [
     {
       image:
-        "https://media.istockphoto.com/id/1447889800/photo/two-college-student-female-friends-smiling-ready-for-classes-at-the-university-campus.jpg?s=612x612&w=0&k=20&c=IIxWOgexUu8DHDq_jPNMgPeoqsy77w9da_-9dUZeQD4=",
-      name: "John Doe",
+        "https://res.cloudinary.com/dinknhjnp/image/upload/v1736159211/WhatsApp_Image_2025-01-06_at_15.47.39_d9a4c54b_orikp0.jpg",
+      name: "Samarth Patidar",
       language: "React",
     },
     {
         image:
-        "https://media.istockphoto.com/id/1447889800/photo/two-college-student-female-friends-smiling-ready-for-classes-at-the-university-campus.jpg?s=612x612&w=0&k=20&c=IIxWOgexUu8DHDq_jPNMgPeoqsy77w9da_-9dUZeQD4=",
+        "https://res.cloudinary.com/dinknhjnp/image/upload/v1736159211/WhatsApp_Image_2025-01-06_at_15.41.49_0595dbdb_vixedt.jpg",
+      name: "Krish Sharma",
+      language: "Backend",
+    },
+    {
+        image:
+        "https://res.cloudinary.com/dinknhjnp/image/upload/v1736159210/WhatsApp_Image_2025-01-06_at_15.43.03_438adaa0_qg3ktp.jpg",
+      name: "Akrati Upadhyay",
+      language: "C & C++",
+    },
+    {
+        image:
+        "https://res.cloudinary.com/dinknhjnp/image/upload/v1736159210/WhatsApp_Image_2025-01-06_at_15.44.38_0a797fad_eof2dr.jpg ",
+      name: "Ankit Prajapati",
+      language: "Tally with GST",
+    },
+    {
+        image:
+        "https://res.cloudinary.com/dinknhjnp/image/upload/v1736159210/WhatsApp_Image_2025-01-06_at_15.43.28_a293c8c8_up2xam.jpg ",
+      name: "Ganesh Rajput",
+      language: "Python",
+    },
+    {
+        image:
+        "https://res.cloudinary.com/dinknhjnp/image/upload/v1736159210/1_xguiv0.png",
       name: "Sahil Prajapati",
       language: "Wordpress",
     },
     {
         image:
-        "https://media.istockphoto.com/id/1447889800/photo/two-college-student-female-friends-smiling-ready-for-classes-at-the-university-campus.jpg?s=612x612&w=0&k=20&c=IIxWOgexUu8DHDq_jPNMgPeoqsy77w9da_-9dUZeQD4=",
-      name: "Tanu patel",
-      language: "JavaScript",
+        "https://res.cloudinary.com/dinknhjnp/image/upload/v1736159209/WhatsApp_Image_2025-01-06_at_15.36.19_a764acd4_sry97b.jpg",
+      name: "Sujal Rahare",
+      language: "Digital Marketing",
     },
     {
         image:
-        "https://media.istockphoto.com/id/1447889800/photo/two-college-student-female-friends-smiling-ready-for-classes-at-the-university-campus.jpg?s=612x612&w=0&k=20&c=IIxWOgexUu8DHDq_jPNMgPeoqsy77w9da_-9dUZeQD4=",
-      name: "Kiran Prajapat",
-      language: "Full Stack",
+        "https://res.cloudinary.com/dinknhjnp/image/upload/v1736159209/WhatsApp_Image_2025-01-06_at_15.36.20_4faa7723_sdvczz.jpg ",
+      name: "Pradeep Birla",
+      language: "Frontend",
     }
   ];
 
@@ -58,7 +82,7 @@ export const InternshipSlider = () => {
         loop={true}
         speed={1000}
         breakpoints={{
-          1024: { slidesPerView: 3, spaceBetween: 30 }, // Desktop
+          1024: { slidesPerView: 4, spaceBetween: 30 }, // Desktop
           768: { slidesPerView: 2, spaceBetween: 20 }, // Tablet
           640: { slidesPerView: 2, spaceBetween: 15 }, // Mobile
           0: { slidesPerView: 1, spaceBetween: 10 }, // Extra Small
@@ -71,7 +95,7 @@ export const InternshipSlider = () => {
             <div className="h-[400px] mb-5 rounded-xl shadow-md hover:shadow-lg cursor-pointer bg-white">
               <div className="h-[75%] w-full">
                 <img
-                  className="w-full h-full object-cover rounded-t-lg"
+                  className="w-full h-full object-contain xl:object-cover rounded-lg"
                   src={card.image}
                   alt={card.name}
                 />

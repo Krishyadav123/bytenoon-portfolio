@@ -72,7 +72,7 @@ export const ContactLayout = () => {
           </div>
         </div>
         <div className="w-full h-[350px] xl:h-auto xl:w-[50%]">
-          <img className="w-full h-full object-cover rounded-xl" src="https://wallpapercave.com/wp/wp3386769.jpg" alt="" />
+          <img className="w-full h-full object-cover rounded-xl" src="https://res.cloudinary.com/dinknhjnp/image/upload/v1736165481/flat-design-illustration-customer-support_23-2148887720_g5hjgm.png " alt="" />
         </div>
       </div>
     </div>
