@@ -37,8 +37,8 @@ const ChooseUs = () => {
             <div
               className="relative hover:scale-[1.02] cursor-pointer duration-200 w-full pt-8 md:pt-10 overflow-hidden"
             >
-              <div className="bg-gray-300 absolute top-0 left-14 w-16 h-16 md:w-20 md:h-20 rounded-xl md:rounded-3xl flex items-center justify-center p-2 md:p-3">
-                <span className="text-white text-2xl font-semibold bg-black h-full w-full rounded-xl md:rounded-3xl flex items-center justify-center">
+              <div className="bg-[#c5d8ff] absolute top-0 left-14 w-16 h-16 md:w-20 md:h-20 rounded-xl md:rounded-3xl flex items-center justify-center p-2 md:p-3">
+                <span className="text-white text-2xl font-semibold bg-primary h-full w-full rounded-xl md:rounded-3xl flex items-center justify-center">
                   1
                 </span>
               </div>
@@ -61,8 +61,8 @@ const ChooseUs = () => {
           <div
               className="relative hover:scale-[1.02] cursor-pointer duration-200 w-full pt-8 md:pt-10 overflow-hidden"
             >
-              <div className="bg-gray-300 absolute top-0 left-14 w-16 h-16 md:w-20 md:h-20 rounded-xl md:rounded-3xl flex items-center justify-center p-2 md:p-3">
-                <span className="text-white text-2xl font-semibold bg-black h-full w-full rounded-xl md:rounded-3xl flex items-center justify-center">
+<div className="bg-[#c5d8ff] absolute top-0 left-14 w-16 h-16 md:w-20 md:h-20 rounded-xl md:rounded-3xl flex items-center justify-center p-2 md:p-3">
+                <span className="text-white text-2xl font-semibold bg-primary h-full w-full rounded-xl md:rounded-3xl flex items-center justify-center">
                   1
                 </span>
               </div>
@@ -82,8 +82,8 @@ const ChooseUs = () => {
             <div
               className="relative hover:scale-[1.02] cursor-pointer duration-200 w-full pt-8 md:pt-10 overflow-hidden"
             >
-              <div className="bg-gray-300 absolute top-0 left-14 w-16 h-16 md:w-20 md:h-20 rounded-xl md:rounded-3xl flex items-center justify-center p-2 md:p-3">
-                <span className="text-white text-2xl font-semibold bg-black h-full w-full rounded-xl md:rounded-3xl flex items-center justify-center">
+              <div className="bg-[#c5d8ff] absolute top-0 left-14 w-16 h-16 md:w-20 md:h-20 rounded-xl md:rounded-3xl flex items-center justify-center p-2 md:p-3">
+                <span className="text-white text-2xl font-semibold bg-primary h-full w-full rounded-xl md:rounded-3xl flex items-center justify-center">
                   1
                 </span>
               </div>
