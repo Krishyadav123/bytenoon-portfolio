@@ -34,55 +34,56 @@ const HeroHeader = () => {
   const cards = [
     {
       id: 1,
-      title: "Card 1",
-      description: "Description for Card 1",
+      title: "Website Development",
+      description: "Stunning websites that drive results."
     },
     {
       id: 2,
-      title: "Card 2",
-      description: "Description for Card 2",
+      title: "App Development",
+      description: "Powerful apps for every platform."
     },
     {
       id: 3,
-      title: "Card 3",
-      description: "Description for Card 3",
+      title: "Photo Editing",
+      description: "Perfecting your images with style."
     },
     {
       id: 4,
-      title: "Card 4",
-      description: "Description for Card 4",
+      title: "Video Editing",
+      description: "Engaging videos that tell your story."
     },
     {
       id: 5,
-      title: "Card 5",
-      description: "Description for Card 5",
+      title: "Digital Marketing",
+      description: "Strategies that boost your brand."
     },
     {
       id: 6,
-      title: "Card 6",
-      description: "Description for Card 6",
+      title: "Graphic Designing",
+      description: "Creative designs that stand out."
     },
     {
       id: 7,
-      title: "Card 7",
-      description: "Description for Card 7",
+      title: "Tally Solutions",
+      description: "Hassle-free financial management."
     },
     {
       id: 8,
-      title: "Card 8",
-      description: "Description for Card 8",
+      title: "GST Services",
+      description: "Smooth and simple GST compliance."
     },
     {
       id: 9,
-      title: "Card 9",
-      description: "Description for Card 9",
+      title: "Data Entry",
+      description: "Accurate data for seamless workflows."
     },
     {
       id: 10,
-      title: "Card 10",
-      description: "Description for Card 10",
-    },
+      title: "UI/UX Design",
+      description: "Designs your users will love."
+    }
   ];
+  
 
   return (
     <div>

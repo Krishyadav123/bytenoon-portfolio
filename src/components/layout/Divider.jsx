@@ -22,10 +22,7 @@ const Divider = ({ backgroundImage }) => {
               24x7 Support From Bytenoon
             </h1>
             <p className="text-xs md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud consectetur voluptatem
-              accusantium doloremque adipiscing elit.
+            At Bytenoon, we’re always here for you. Our dedicated support team is available 20 hours a day, 7 days a week, <br /> ensuring that your queries are resolved quickly and your projects stay on track without delays. Your success is our priority!
             </p>
             <div className="flex items-center justify-center gap-2 mt-5 md:mt-10">
               {/* <Button

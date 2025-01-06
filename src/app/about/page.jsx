@@ -32,10 +32,7 @@ export const AboutComponent = () => {
               All Information About Bytenoon
             </h1>
             <p className="text-center text-sm md:text-base text-gray-500 mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              debitis molestias, assumenda, nam voluptatibus excepturi ipsa
-              ipsum nisi in architecto dolores! Nulla repellat, in laudantium
-              necessitatibus perferendis dolores.
+            At Bytenoon, we are passionate about crafting innovative IT solutions that empower businesses to thrive in the digital age. With expertise spanning software development, cloud computing, and cutting-edge technology consulting, we transform complex challenges into seamless, efficient systems.
             </p>
           </div>
         </div>
@@ -76,9 +73,10 @@ export const AboutComponent = () => {
                 </div>
                 <div className="w-full lg:w-1/2">
                     <h3 className="font-bold text-xl md:text-2xl">
-                       About Web Devlopment Process
+                    About Bytenoon 
                     </h3>
-                    <p className="text-sm md:text-base mt-5 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ab autem ut suscipit necessitatibus labore minus numquam enim tempore eaque expedita, in quos rem! Expedita doloremque error nostrum quis veritatis quaerat soluta assumenda ducimus hic accusamus veniam velit iusto voluptatum magni, commodi vitae? Culpa, architecto? Eum animi consequuntur ab numquam.</p>
+                    <p className="text-sm md:text-base mt-5 text-gray-500">Welcome to Bytenoon — your one-stop destination for cutting-edge technology and creative solutions. We specialize in delivering a wide range of services that empower businesses to thrive in a fast-paced digital world. From crafting stunning websites to driving impactful digital marketing campaigns, we are here to turn your vision into reality.
+                    </p>
                     <Button className="mt-5 w-32 bg-primary text-white">
                         Read More
                     </Button>
@@ -87,9 +85,9 @@ export const AboutComponent = () => {
             <div className="flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-28 mt-10 md:mt-20">
                 <div className="w-full lg:w-1/2">
                     <h3 className="font-bold text-xl md:text-2xl">
-                       About Web Devlopment Process
+                      History of Bytenoon 
                     </h3>
-                    <p className="text-sm md:text-base mt-5 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ab autem ut suscipit necessitatibus labore minus numquam enim tempore eaque expedita, in quos rem! Expedita doloremque error nostrum quis veritatis quaerat soluta assumenda ducimus hic accusamus veniam velit iusto voluptatum magni, commodi vitae? Culpa, architecto? Eum animi consequuntur ab numquam.</p>
+                    <p className="text-sm md:text-base mt-5 text-gray-500">Bytenoon was founded with a simple yet powerful idea: to bridge the gap between technology and creativity. Starting as a small team of passionate individuals, we have grown into a dynamic organization delivering a diverse range of services. Over the years, we’ve worked with startups, SMEs, and enterprises, creating innovative solutions and building lasting partnerships. Our journey is a testament to our commitment to excellence, adaptability, and the trust our clients place in us.</p>
                     <Button className="mt-5 w-32 bg-primary text-white">
                         Read More
                     </Button>
@@ -104,9 +102,8 @@ export const AboutComponent = () => {
                 </div>
                 <div className="w-full lg:w-1/2">
                     <h3 className="font-bold text-xl md:text-2xl">
-                       About Web Devlopment Process
-                    </h3>
-                    <p className="text-sm md:text-base mt-5 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ab autem ut suscipit necessitatibus labore minus numquam enim tempore eaque expedita, in quos rem! Expedita doloremque error nostrum quis veritatis quaerat soluta assumenda ducimus hic accusamus veniam velit iusto voluptatum magni, commodi vitae? Culpa, architecto? Eum animi consequuntur ab numquam.</p>
+                      Our Mission
+                    </h3><p className="text-sm md:text-base mt-5 text-gray-500">Our mission at Bytenoon is to empower businesses with innovative technology and creative solutions that drive growth and success. We aim to deliver exceptional value through customer-centric approaches, cutting-edge technologies, and a relentless pursuit of quality. By enabling our clients to achieve their goals, we strive to be a catalyst for progress in a digital-first world.</p>
                     <Button className="mt-5 w-32 bg-primary text-white">
                         Read More
                     </Button>

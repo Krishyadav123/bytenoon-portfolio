@@ -15,32 +15,32 @@ const Experience = () => {
                             </div>
                             <div>
                                 <h1 className='text-3xl md:text-5xl mt-3 font-bold text-black'>
-                                    <span className='text-primary'>Expert Dentists</span> Providing Quality Care
+                                    <span className='text-primary'>Expert Innovators</span> Delivering Exceptional Solutions
                                 </h1>
                             </div>
                             <div>
-                                <p className='mt-5 text-lg text-gray-500'>We are committed to sustainability. Our clinic practices eco-friendly initiatives like digital records to reduce paper waste and energy-efficient equipment.We are committed to sustainability. Our clinic practices eco-friendly initiatives like digital records to reduce paper waste and energy.</p>
+                                <p className='mt-5 text-lg text-gray-500'>Bytenoon is a dynamic IT solutions company dedicated to delivering excellence across a wide range of services. Whether it’s crafting stunning websites, building powerful mobile applications, creating captivating designs, or driving impactful digital marketing campaigns, we are here to turn your ideas into reality.With a team of highly skilled professionals, we specialize in providing innovative, custom-tailored solutions designed to meet the unique needs of our clients.</p>
                                 {/* <FontAwesomeIcon icon={faHeart}/> */}
                             </div>
                             <div className='flex flex-wrap items-center gap-4 justify-between mt-10'>
                                 <div className='flex flex-col gap-4'>
                                     <div className='flex items-center gap-2'>
                                         <span><FontAwesomeIcon icon={faCircleCheck} className='text-primary text-xl' /></span>
-                                        <p className='text-black text-lg font-semibold'>Experienced Team</p>
+                                        <p className='text-black text-lg font-semibold'>Diverse Expertise</p>
                                     </div>
                                     <div className='flex items-center gap-2'>
                                         <span><FontAwesomeIcon icon={faCircleCheck} className='text-primary text-xl' /></span>
-                                        <p className='text-black text-lg font-semibold'>State-Of-The-Art Technology</p>
+                                        <p className='text-black text-lg font-semibold'>Client-Centric Approach</p>
                                     </div>
                                 </div>
                                 <div className='flex flex-col gap-4'>
                                     <div className='flex items-center gap-2'>
                                         <span><FontAwesomeIcon icon={faCircleCheck} className='text-primary text-xl' /></span>
-                                        <p className='text-black text-lg font-semibold'>Comprehensive Services</p>
+                                        <p className='text-black text-lg font-semibold'>Tailored Solutions</p>
                                     </div>
                                     <div className='flex items-center gap-2'>
                                         <span><FontAwesomeIcon icon={faCircleCheck} className='text-primary text-xl' /></span>
-                                        <p className='text-black text-lg font-semibold'>Emergency Dental Services</p>
+                                        <p className='text-black text-lg font-semibold'>Seamless Execution</p>
                                     </div>
                                 </div>
                             </div>
