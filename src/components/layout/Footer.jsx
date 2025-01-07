@@ -16,7 +16,11 @@ const Footer = () => {
               <p className='text-3xl font-semibold'>Bytenoon</p>
             </div>
             <p className="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi aspernatur vero consequatur? Explicabo esse culpa quidem incidunt quisquam suscipit?
+            At Bytenoon, we’re always here for you. Our dedicated support team is available 20 hours a day, 7 days a week,
+ensuring that your queries are resolved quickly and your projects stay on track without delays. Your success is our priority!
+Call Now
+
+
             </p>
 
             <div>
