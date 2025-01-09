@@ -69,30 +69,30 @@ export const Slider = () => {
           quoteIcon:
             "https://demo.awaikenthemes.com/html-preview/dentaire/images/icon-testimonial-quote.svg",
           testimonial:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illum aut commodi eius sed corporis natus nobis at quam adipisci et voluptas odit nisi odio, modi porro nesciunt?",
+            "Bytenoon exceeded our expectations with their top-notch development services. They turned our complex requirements into a seamless, user-friendly application. The team was professional, responsive, and delivered on time. Highly recommend for anyone looking for high-quality tech solutions!",
           authorImage:
-            "https://demo.awaikenthemes.com/html-preview/dentaire/images/author-3.jpg",
-          authorName: "Thomas Lee",
+            "https://www.shutterstock.com/image-photo/handsome-smiling-young-man-folded-260nw-2068601207.jpg",
+          authorName: "Jitendra Kumar",
           authorRole: "Teacher",
         },
         {
           quoteIcon:
             "https://demo.awaikenthemes.com/html-preview/dentaire/images/icon-testimonial-quote.svg",
           testimonial:
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+            "We partnered with Bytenoon for our e-commerce platform, and they delivered beyond what we imagined. Their innovative approach and attention to detail stood out. They also provided great post-launch support, ensuring our business ran smoothly.",
           authorImage:
-            "https://demo.awaikenthemes.com/html-preview/dentaire/images/author-3.jpg",
-          authorName: "Sarah Johnson",
+            "https://cdn.pixabay.com/photo/2020/04/02/21/04/indian-4996741_1280.jpg",
+          authorName: "Krishna Patel",
           authorRole: "Software Engineer",
         },
         {
           quoteIcon:
             "https://demo.awaikenthemes.com/html-preview/dentaire/images/icon-testimonial-quote.svg",
           testimonial:
-            "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.",
+            "The Bytenoon team is a pleasure to work with. They are experts in their field and maintain clear communication throughout the project. Their ability to adapt and provide solutions quickly was truly impressive. I look forward to working with them again!",
           authorImage:
-            "https://demo.awaikenthemes.com/html-preview/dentaire/images/author-3.jpg",
-          authorName: "Emily Davis",
+            "https://static.toiimg.com/imagenext/toiblogs/photo/blogs/wp-content/uploads/2019/10/IMG_0794.jpg",
+          authorName: "Rajesh Kumar",
           authorRole: "Doctor",
         },
       ];
@@ -131,7 +131,7 @@ export const Slider = () => {
               <div className="flex items-center gap-4 mt-10">
                 <div>
                   <img
-                    className="rounded-full"
+                    className="rounded-full h-16 w-16"
                     src={slide.authorImage}
                     alt={slide.authorName}
                   />
