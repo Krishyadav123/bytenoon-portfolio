@@ -4,10 +4,10 @@ import React from "react";
 
 
 icons = [
-  "/FullStack.svg",
-  "/AppDev.svg",
-  "/DigitalMarketing.svg",
   "/FrontendDev.svg",
+  "/1.svg",
+  "/DigitalMarketing.svg",
+  "/7.svg",
   "/9.svg",
   "/Graphic-design.svg",
   "/Ui.svg",

@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="bg-black">
+    <footer className="bg-primary">
       <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
@@ -40,13 +40,28 @@ const Footer = () => {
                 </li>
 
                 <li>
-                  <Link href="/pages/search" className="text-white transition hover:text-white/75">
-                    Go To Search Page
+                  <Link href="/about" className="text-white transition hover:text-white/75">
+                    About
                   </Link>
                 </li>
                 <li>
-                  <Link href="/pages/seaprate-room" className="text-white transition hover:text-white/75">
-                    Go To Seaprate-room page
+                  <Link href="/services" className="text-white transition hover:text-white/75">
+                    Services
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/courses" className="text-white transition hover:text-white/75">
+                    Courses
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/internship" className="text-white transition hover:text-white/75">
+                    Internship
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contact" className="text-white transition hover:text-white/75">
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -63,15 +78,24 @@ const Footer = () => {
                 </li>
 
                 <li>
-                  <a className="text-white transition hover:text-white/75"> Web Design </a>
+                  <a className="text-white transition hover:text-white/75"> App Development </a>
                 </li>
 
                 <li>
-                  <a className="text-white transition hover:text-white/75"> Marketing </a>
+                  <a className="text-white transition hover:text-white/75">Video Editing </a>
                 </li>
 
                 <li>
-                  <a className="text-white transition hover:text-white/75"> Google Ads </a>
+                  <a className="text-white transition hover:text-white/75">Photos&Video Editing </a>
+                </li>
+                <li>
+                  <a className="text-white transition hover:text-white/75"> Graphics Design </a>
+                </li>
+                <li>
+                  <a className="text-white transition hover:text-white/75"> Ui/Ux Design </a>
+                </li>
+                <li>
+                  <a className="text-white transition hover:text-white/75"> Social Media Marketing </a>
                 </li>
               </ul>
             </div>
@@ -81,15 +105,15 @@ const Footer = () => {
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
-                  <a className="text-white transition hover:text-white/75"> Whatsapp </a>
+                  <a className="text-white transition cursor-pointer hover:text-white/75"> Whatsapp </a>
                 </li>
 
                 <li>
-                  <a className="text-white transition hover:text-white/75"> Linkdin </a>
+                  <a className="text-white transition cursor-pointer hover:text-white/75"> Linkdin </a>
                 </li>
 
                 <li>
-                  <a className="text-white transition hover:text-white/75"> Github </a>
+                  <a className="text-white transition cursor-pointer hover:text-white/75"> Github </a>
                 </li>
               </ul>
             </div>
@@ -122,11 +146,11 @@ const Footer = () => {
 
         <div className="mt-12 border-t border-gray-100 pt-6">
           <div className="text-center sm:flex sm:justify-between sm:text-left">
-            <p className="text-sm text-gray-500">
-              <span className="block sm:inline">All rights reserved.</span>
+            <p className="text-sm">
+              <span className="block text-gray-300 sm:inline">All rights reserved.</span>
 
               <a
-                className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
+                className="inline-block text-white underline"
               >
                 Terms & Conditions
               </a>
@@ -134,13 +158,13 @@ const Footer = () => {
               <span>&middot;</span>
 
               <a
-                className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
+                className="inline-block text-white underline"
               >
                 Privacy Policy
               </a>
             </p>
 
-            <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2023 Room-Rental</p>
+            <p className="mt-4 text-sm text-white sm:order-first sm:mt-0">&copy; 2025 Bytenoon</p>
           </div>
         </div>
       </div>

@@ -108,6 +108,9 @@ const HeroHeader = () => {
               className="w-full h-full pt-[250px] lg:pt-[350px] px-2 lg:px-10 bg-contain bg-center"
               style={{
                 backgroundImage: `url(${img})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
               }}
             >
               <div className="w-full h-full bg-white bg-opacity-30 p-5 lg:p-10 flex flex-wrap gap-5 items-center justify-center">
@@ -124,7 +127,7 @@ const HeroHeader = () => {
                         className="w-full h-full"
                       />
                     </div>
-                    <div className="bg-white h-full w-full rounded-lg px-5 pt-14 pb-5">
+                    <div className="bg-gradient-to-b from-[#fff] to-blue-300 hover:bg-gradient-to-b hover:from-blue-300 hover:to-[#fff] h-full w-full rounded-lg px-5 pt-14 pb-5">
                       <div>
                         <p className="text-2xl text-center font-semibold">{card.title}</p>
                       </div>

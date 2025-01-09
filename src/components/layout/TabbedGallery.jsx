@@ -1,35 +1,134 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const TabbedGallery = () => {
-  const [activeTab, setActiveTab] = useState("app"); // Default tab
+  const [activeTab, setActiveTab] = useState("webDevelopment"); // Default tab
   const [fade, setFade] = useState(false); // For fade animation on images
 
   const tabContent = {
-    app: [
-      "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2940&q=80",
-      "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2762&q=80",
-      "https://images.unsplash.com/photo-1682407186023-12c70a4a35e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2832&q=80",
-      "https://demos.creative-tim.com/material-kit-pro/assets/img/examples/blog5.jpg",
-      "https://material-taillwind-pro-ct-tailwind-team.vercel.app/img/content2.jpg",
-      "https://images.unsplash.com/photo-1620064916958-605375619af8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1493&q=80",
+    webDevelopment: [
+      {
+        id: 1,
+        image:
+          "https://res.cloudinary.com/dutnavdiu/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736408851/websites/apugttazyltjhg3lawbr.png",
+        link: "https://classy-zuccutto-476a95.netlify.app",
+      },
+      {
+        id: 2,
+        image:
+          "https://res.cloudinary.com/dutnavdiu/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736408848/websites/tjau9ssnqz0cazmmbjz3.png",
+        link: "https://marvelous-bombolone-7448fc.netlify.app",
+      },
+      {
+        id: 3,
+        image:
+          "https://res.cloudinary.com/dutnavdiu/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736408840/websites/qnsnf9mpfylf8pitjkmt.png",
+        link: "https://suburbia-skate.netlify.app/",
+      },
+      {
+        id: 4,
+        image:
+          "https://res.cloudinary.com/dutnavdiu/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736408838/websites/j0fljam2cmbl2ssrcutu.png",
+        link: "",
+      },
+      {
+        id: 5,
+        image:
+          "https://res.cloudinary.com/dutnavdiu/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736408837/websites/eothdey7ypk5jeynd96m.png",
+        link: "https://fizzi-demo.vercel.app/",
+      },
+      {
+        id: 6,
+        image:
+          "https://res.cloudinary.com/dutnavdiu/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736408848/websites/kwtoofoqv7carlx7bb3h.png",
+        link: "https://shreeinsul.com/",
+      },
     ],
-    message: [
-      "https://demos.creative-tim.com/material-kit-pro/assets/img/examples/blog5.jpg",
-      "https://material-taillwind-pro-ct-tailwind-team.vercel.app/img/content2.jpg",
-      "https://images.unsplash.com/photo-1620064916958-605375619af8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1493&q=80",
-      "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2940&q=80",
-      "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2762&q=80",
-      "https://images.unsplash.com/photo-1682407186023-12c70a4a35e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2832&q=80",
+    digitalMarketing: [
+      {
+        id: 1,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/v1736324595/10_ruqutl.png",
+        link: "",
+      },
+      {
+        id: 2,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/v1736324595/8_d0psga.png",
+        link: "",
+      },
+      {
+        id: 3,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/6_ybbvcw.png",
+        link: "",
+      },
+      {
+        id: 4,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/5_jrhlnz.png",
+        link: "",
+      },
+      {
+        id: 5,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/4_ciqh9g.png",
+        link: "",
+      },
+      {
+        id: 6,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/7_nswwik.png",
+        link: "",
+      },
+      {
+        id: 7,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/9_ee1puf.png",
+        link: "",
+      },
+      {
+        id: 8,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/3_bsvtqt.png",
+        link: "",
+      },
     ],
-    settings: [
-      "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2940&q=80",
-      "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2762&q=80",
-      "https://demos.creative-tim.com/material-kit-pro/assets/img/examples/blog5.jpg",
-      "https://material-taillwind-pro-ct-tailwind-team.vercel.app/img/content2.jpg",
-      "https://images.unsplash.com/photo-1620064916958-605375619af8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1493&q=80",
-      "https://images.unsplash.com/photo-1682407186023-12c70a4a35e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2832&q=80",
+    graphicDesigning: [
+      {
+        id: 1,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/v1736324595/10_ruqutl.png",
+        link: "",
+      },
+      {
+        id: 2,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/v1736324595/8_d0psga.png",
+        link: "",
+      },
+      {
+        id: 3,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/6_ybbvcw.png",
+        link: "",
+      },
+      {
+        id: 4,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/5_jrhlnz.png",
+        link: "",
+      },
+      {
+        id: 5,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/4_ciqh9g.png",
+        link: "",
+      },
+      {
+        id: 6,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/7_nswwik.png",
+        link: "",
+      },
+      {
+        id: 7,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/9_ee1puf.png",
+        link: "",
+      },
+      {
+        id: 8,
+        image: "https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800,h_800/v1736324593/3_bsvtqt.png",
+        link: "",
+      },
     ],
   };
 
@@ -49,15 +148,17 @@ const TabbedGallery = () => {
     <div className="w-full px-5 xl:px-32 py-10">
       <div className="relative right-0">
         <ul className="relative flex flex-wrap px-1.5 py-1.5 list-none rounded-md bg-slate-100">
-          {["app", "message", "settings"].map((tab) => (
+          {["webDevelopment", "digitalMarketing", "graphicDesigning"].map((tab) => (
             <li key={tab} className="z-30 flex-auto text-center">
               <button
-                className={`z-30 flex items-center justify-center w-full px-0 py-2 text-sm mb-0  border-0 rounded-lg cursor-pointer ${
+                className={`z-30 flex items-center justify-center w-full px-0 py-2 text-xs sm:text-sm mb-0  border-0 rounded-lg cursor-pointer ${
                   activeTab === tab ? "bg-primary text-white" : "text-slate-700"
                 }`}
                 onClick={() => handleTabChange(tab)}
               >
-                {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                {tab
+                  .replace(/([A-Z])/g, " $1") // Insert space before capital letters
+                  .replace(/^./, (str) => str.toUpperCase())} {/* Capitalize first letter */}
               </button>
             </li>
           ))}
@@ -65,16 +166,23 @@ const TabbedGallery = () => {
       </div>
       <div className={`p-5 transition-opacity duration-300 ${fade ? "opacity-100" : "opacity-0"}`}>
         <div className="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4 font-sans text-base antialiased font-light leading-relaxed text-gray-700 h-max">
-          {tabContent[activeTab].map((src, index) => (
-            <div key={index}>
-              <Image
-                width={500}
-                height={500}
-                unoptimized
-                className="w-full h-[300px] max-w-full rounded-lg"
-                src={src}
-                alt={`image-${activeTab}-${index}`}
-              />
+          {tabContent[activeTab].map((item, index) => (
+            <div key={item.id || index}>
+              {item.link ? (
+                <Link href={item.link} target="_blank" rel="noopener noreferrer">
+                  <img
+                    className="w-full h-[300px] max-w-full rounded-lg"
+                    src={item.image}
+                    alt={`image-${activeTab}-${index}`}
+                  />
+                </Link>
+              ) : (
+                <img
+                  className="w-full h-[300px] max-w-full rounded-lg"
+                  src={item.image}
+                  alt={`image-${activeTab}-${index}`}
+                />
+              )}
             </div>
           ))}
         </div>
